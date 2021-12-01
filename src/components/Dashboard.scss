@@ -1,0 +1,191 @@
+.Dashboard {
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+}
+
+.WebName{
+
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 25px;;
+}
+
+.logout-icon { 
+    stroke: #100D3B;
+    margin-right: 50px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #dddddd;
+    border-radius: 10px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #CAE9FF;
+    }
+}
+
+.logout-btn-container {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    
+    span {
+        color: #100D3B;
+        font-weight: 300;  
+    }
+}
+
+
+
+.CitiesBar {
+    display: flex;
+    flex-flow: row;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    overflow: scroll;
+    width: calc(100% - 50px);
+    min-height: 218px;
+    
+    &::-webkit-scrollbar { 
+        width: 0 !important 
+    }
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+
+}
+
+.city-btn {
+    
+    height: 200px;
+    min-width: 250px;
+  
+
+    display: flex;
+    align-items: flex-end;
+    
+    span {
+        font-size: 24px;
+        padding-left: 20px;
+        padding-bottom: 15px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+
+    &:hover {
+        cursor: pointer;
+        opacity: .8;
+    }
+
+}
+
+
+.toronto-btn {
+    background-image: url('./images/toronto.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.manhattan-btn {
+    background-image: url('./images/manhattans.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+
+.rio-btn {
+    background-image: url('./images/RioDeJaneiro.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+
+.montevideo-btn {
+    background-image: url('./images/MonteVideo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.paris-btn {
+    background-image: url('./images/paris.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.berlin-btn {
+    background-image: url('./images/berlin.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.rome-btn {
+    background-image: url('./images/rome.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.cairo-btn {
+    background-image: url('./images/cairo.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+
+.seoul-btn {
+    background-image: url('./images/seoul.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.shanghai-btn {
+    background-image: url('./images/shanghai.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+}
+
+.tokyo-btn {
+    background-image: url('./images/tokyo.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.loader {
+    width: 100%;
+    // height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}

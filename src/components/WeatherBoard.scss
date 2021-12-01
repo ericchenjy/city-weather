@@ -1,0 +1,40 @@
+.WeatherBoard {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    background-color: #ffffff;
+}
+
+
+.toggle-forcast-btn {
+    border: none;
+    font-weight: 500;
+    font-size: 30px;
+    // background-color: white;
+    background-color: transparent;
+    padding: 10px;
+    color: #000000;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        opacity: .8;
+        cursor: pointer;
+    }
+}
+
+
+.active-toggle-btn{
+    background-color: #D8E2DC
+
+}
+
+.WeatherMap{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
