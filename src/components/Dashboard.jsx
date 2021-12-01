@@ -171,7 +171,7 @@ const city = [
             </div>
 
           { pageLoading ?
-           <div className="SideBar"><img style={{ width: '100px' }} src={loadingAnimation} /></div>
+           <div className="SideBar"></div>
            :
           < Sidebar weatherData={weatherData} />
           }
